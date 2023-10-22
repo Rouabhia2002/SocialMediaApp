@@ -1,0 +1,54 @@
+.login {
+    height: 100vh;
+    background-color: rgb(224, 165, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .card {
+    background-color: white;
+    width: 50%;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login .card .left {
+    background: url("https://images.unsplash.com/photo-1501594907352-04cda38ebc29");
+    background-size: cover;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.login .card .left h1 {
+    font-size: 40px;
+}
+
+.login .card .left button {
+    width: 50%;
+    background-color: white;
+    color: purple;
+    border: none;
+    padding: 5px;
+}
+
+.login .card .right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.login .card .right button {
+    width: 50%;
+    background-color: purple;
+    color: white;
+    border: none;
+}

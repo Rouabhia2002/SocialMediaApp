@@ -1,0 +1,62 @@
+.Leftbar {
+    display: flex;
+    flex: 2;
+    position:sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
+    overflow: scroll; //if its overflowed then scrool
+
+    // bah matbanch ugly hadik li tal3 
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+  
+    .container {
+      padding: 20px;
+  
+      .menu {
+        
+        span{
+            font-size: 12px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .user {
+          img {
+            width: 30;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+  
+          span {
+            font-size: 20px;
+            
+          }
+  
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+  
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          img {
+            
+          }
+  
+          span {
+          
+                font-size: 16px;
+            
+          }
+        }
+      }
+    }
+  }
+  
